@@ -35,11 +35,11 @@
         </div>
       </div>
     </header>
-    <main class="container">
+    <main class="container clearfix">
       <h1>
         Средства для ухода
       </h1>
-      <div class="breadcrumbs">
+      <div class="breadcrumbs clearfix">
         <ul>
           <li>
             <a href="#">Главная</a> 
@@ -52,81 +52,107 @@
           </li>
         </ul>    
       </div>
-      <h2>Производители</h2>
-      <div class="producers">
-        <label>
-          <input type="checkbox" checked>Baxter of California 
-        </label>
-        <label> 
-          <input type="checkbox">Mr Natty 
-        </label>
-        <label> 
-          <input type="checkbox" checked>Suavecito 
-        </label>
-        <label> 
-          <input type="checkbox">Malin+Goetz
-        </label>
-        <label> 
-          <input type="checkbox">Murray's
-        </label>
-        <label>
-          <input type="checkbox" checked>American Crew
-        </label>
-      </div>
-      <h2>Группы товаров</h2>
-      <div class="product-groups">
-        <label>
-          <input type="radio" value="group-shaving" name="group">Бритвенные принадлежности
-        </label>
-        <label>
-          <input type="radio" value="group-care" name="group">Средства для ухода
-        </label>
-        <label>
-          <input type="radio" value="group-accessoires" name="group">Аксессуары
-        </label>
-      </div>
-      <div>
-        <a class="btn filter" href="#">Показать</a>
-      </div>
-      <div class="product-catalog">
+      <acide class="clearfix">
+        <form  class="clearfix">
+          <fieldset>Производители</fieldset>
+          <div class="producers clearfix">
+            <ul>
+              <li>
+                <label>
+                  <input type="checkbox" checked>Baxter of California 
+                </label>
+              </li>
+              <li>
+                <label> 
+                  <input type="checkbox">Mr Natty 
+                </label>
+              </li>
+              <li>
+                <label> 
+                  <input type="checkbox" checked>Suavecito 
+                </label>
+              </li>
+              <li>
+                <label> 
+                  <input type="checkbox">Malin+Goetz
+                </label>
+              </li>
+              <li>
+                <label> 
+                  <input type="checkbox">Murray's
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" checked>American Crew
+                </label>
+              </li>
+            </ul>
+          </div>
+          <fieldset>Группы товаров</fieldset>
+          <div class="product-groups clearfix">
+            <ul>
+              <li>
+                <label>
+                  <input type="radio" value="group-shaving" name="group">Бритвенные принадлежности
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" value="group-care" name="group">Средства для ухода
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" value="group-accessoires" name="group">Аксессуары
+                </label>
+              </li>
+            </ul>
+          </div>
+          <div class="filter">
+            <input type="submit" name="submit" id="submit-field" value="Показать">
+          </div>
+        </form>
+      </acide> 
+      <div class="product-catalog clearfix">
         <div class="catalog-item">
           <img src="img/catalog-item-1.jpg" width="220" height="165" alt="">
-          <h3>Набор для путешествий &laquo;Baxter of California&raquo;</h3>
+          <h2>Набор для путешествий &laquo;Baxter of California&raquo;</h2>
           <b class="price">2900 руб</b>
           <a class="btn" href="#">Купить</a>
         </div>
         <div class="catalog-item">
           <img src="img/catalog-item-2.jpg" width="220" height="165" alt="">
-          <h3>Увлажняющий кондиционер &laquo;Baxter of California&raquo;</h3>
+          <h2>Увлажняющий кондиционер &laquo;Baxter of California&raquo;</h2>
           <b class="price">750 руб</b>
           <a class="btn" href="#">Купить</a>
         </div>
         <div class="catalog-item">
           <img src="img/catalog-item-3.jpg" width="220" height="165" alt="">
-          <h3>Гель для волос &laquo;Suavecito&raquo;</h3>
+          <h2>Гель для волос &laquo;Suavecito&raquo;</h2>
           <b class="price">290 руб</b>
           <a class="btn" href="#">Купить</a>
         </div>
         <div class="catalog-item">
           <img src="img/catalog-item-4.jpg" width="220" height="165" alt="">
-          <h3>Глина для укладки волос &laquo;American Crew&raquo;</h3>
+          <h2>Глина для укладки волос &laquo;American Crew&raquo;</h2>
           <b class="price">500 руб</b>
           <a class="btn" href="#">Купить</a>
         </div>
         <div class="catalog-item">
           <img src="img/catalog-item-5.jpg" width="220" height="165" alt="">
-          <h3>Гель для волос &laquo;American Crew&raquo;</h3>
+          <h2>Гель для волос &laquo;American Crew&raquo;</h2>
           <b class="price">300 руб</b>
           <a class="btn" href="#">Купить</a>
         </div>
         <div class="catalog-item">
           <img src="img/catalog-item-6.jpg" width="220" height="165" alt="">
-          <h3>Набор для бритья &laquo;Baxter of California&raquo;</h3>
+          <h2>Набор для бритья &laquo;Baxter of California&raquo;</h2>
           <b class="price">3900 руб</b>
           <a class="btn" href="#">Купить</a>
         </div>
       </div>
-      <div class="pages">
+      <div class="pages clearfix">
         <a class="page" href="#">1</a>
         <b class="page">2</b>
         <a class="page" href="#">3</a>
@@ -134,7 +160,7 @@
       </div>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>

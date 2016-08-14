@@ -49,6 +49,7 @@ body {
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
+  background: #F0FFF0;
 }
 
 .main-header {
@@ -134,11 +135,9 @@ body {
 
 /*item*/
 
-
-
 .breadcrumbs {
   float: left;
-  width: 780px;
+  width: 900px;
   min-height: 70px;
   background: rgba(192, 57, 43, 0.9);
   margin-bottom: 60px;
@@ -158,14 +157,78 @@ body {
   background: rgba(192, 57, 43, 0.9);
 }
 
-.product-photo-content img{
+.product-photo-content img {
   margin: 0px;
   padding: 0px;
 }
 
-h1{
+h1 {
   float: left;
   background: rgba(192, 57, 43, 0.9);
 }
+
+/*item*/
+
+acide {
+  float: left;
+   width: 170px;
+   background: #FFE4E1;
+}
+/*
+form {
+   width: 170px;
+   background: #FFD700;
+}*/
+
+fieldset {
+  float: left;
+  background: rgba(192, 57, 43, 0.9);
+}
+
+.producers {
+  float: left;
+  background: rgba(192, 57, 43, 0.9);
+}
+
+.product-groups {
+  float: left;
+  background: rgba(192, 57, 43, 0.9);
+}
+
+.filter {
+  float: left;
+  background: rgba(192, 57, 43, 0.9);
+  margin: 0 auto;
+}
+
+.product-catalog {
+  width: 700px;
+  float: right;
+  background: #40E0D0;
+}
+
+.catalog-item {
+  width: 220px;
+  float: left;
+  background: rgba(192, 57, 43, 0.9);
+}
+
+.pages {
+  float: left;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.page {
+  float: left;
+  background: rgba(192, 57, 43, 0.9);
+}
+
+
+
+
+
+
+
 
 
