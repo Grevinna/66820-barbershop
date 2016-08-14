@@ -140,6 +140,8 @@ body {
   float: left;
   width: 780px;
   min-height: 70px;
+  background: rgba(192, 57, 43, 0.9);
+  margin-bottom: 60px;
 }
 
 .product-photo {
@@ -162,8 +164,8 @@ body {
 }
 
 h1{
-  display: inline-block;
   float: left;
+  background: rgba(192, 57, 43, 0.9);
 }
 
 
