@@ -10,21 +10,21 @@ css/
 /*index*/
 
 body {
-  font-size: 20px;
+  font-size: 14px;
   line-height: 2;
   color: black;
   font-weight: normal;
   font-family: Arial, sans-serif;
 }
 h1 {
-  font-size: 30px;
+  font-size: 18px;
   line-height: 2;
   color: black;
   font-weight: normal;
   font-family: Arial, sans-serif;
 }
 h2 {
-  font-size: 25px;
+  font-size: 16px;
   line-height: 2;
   color: black;
   font-weight: normal;
@@ -131,6 +131,10 @@ body {
   float: right;
   width: 180px;
   min-height: 90px;
+}
+
+ figure { 
+   margin:0; 
 }
 
 /*item*/
